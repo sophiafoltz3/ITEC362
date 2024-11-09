@@ -129,3 +129,37 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Deals Page Styles */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #A52A2A;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 240px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #FFD700; /* Gold color for price */
+}
